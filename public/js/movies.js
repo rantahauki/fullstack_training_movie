@@ -4,7 +4,7 @@ async function get_movie() {
   var movie_year = document.getElementById("year").value;
   var poster = document.getElementById("movie_poster");
 
-  var search_text ='http://www.omdbapi.com/?t='+movie_name+'&y='+movie_year+'&apikey=a95f3723';
+  var search_text ='https://www.omdbapi.com/?t='+movie_name+'&y='+movie_year+'&apikey=a95f3723';
   console.log(search_text);
 
   const response = await fetch(search_text);
