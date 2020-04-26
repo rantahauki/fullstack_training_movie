@@ -49,7 +49,26 @@
 
       </div>
       <div class="col-sm-4"</div>
+        <form >
+          <div class="form-group">
+            <label for="review">Review</label>
+            <input type="text" class="form-control" id="review">
+          </div>
+          <div class="form-group">
+            <label for="reviewer">Reviewer</label>
+            <input type="text" class="form-control" id="reviewer">
+          </div>
+            <button onclick="review_movie()" type="button" class="btn btn-secondary">Review</button>
+        </form>
     </div>
+    <br> <!-- this should be done with css -->
+    <table id="review_table" class="table table-dark table-striped">
+      <tr>
+        <th>Movie</th>
+        <th>Review</th>
+        <th>Reviewer</th>
+      </tr>
+    </table>
 
 
 
